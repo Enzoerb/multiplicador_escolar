@@ -45,6 +45,7 @@ ex:
 
 ### format_to_multiplication
 removes the points of a number
+
 ex:
 <pre>
 >>> format_to_multiplication(12345.0)
