@@ -19,6 +19,17 @@ ex:
 </pre>
 
 ### signal
+get the signal of a number
+
+ex:
+<pre>
+>>> signal(98765)
+1
+>>> signal(-98765)
+-1
+>>> signal(0)
+1
+</pre>
 
 ### ten_potence
 
