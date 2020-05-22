@@ -33,6 +33,7 @@ ex:
 
 ### ten_potence
 returns a multiple of ten that when multiplied by the number removes it's decimal part
+
 ex:
 <pre>
 >>> ten_potence(987.65)
@@ -45,6 +46,7 @@ ex:
 
 ### format_to_multiplication
 removes the points of a number
+
 ex:
 <pre>
 >>> format_to_multiplication(12345.0)
