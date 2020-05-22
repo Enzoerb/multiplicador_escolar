@@ -18,6 +18,8 @@ x       12345
  +1219253925
 </pre>
 
+<hr/>
+
 ### SchoolMult class
 <hr/>
 #### instance variables
@@ -52,6 +54,7 @@ _sum of mid_numbers without signal and point_
 ##### result(str)
 _multiplication result_
 
+<hr/>
 
 #### porperty functions
 SchoolMult class has 2 property functions
@@ -65,6 +68,7 @@ _returns higher number between multiplicador and multiplicando_
 _returns lower number between multiplicador and multiplicando_
 
 <hr/>
+
 #### staticmethods
 SchoolMult class has 1 staticmethod
 
@@ -83,6 +87,7 @@ ex:
 </pre>
 
 <hr/>
+
 #### instance methods
 
 ##### signal
@@ -229,6 +234,7 @@ ex:
 _period printed to show and of spaces_
 
 <hr/>
+
 #### Magic/Dunder Methods
 
 ##### len
@@ -270,5 +276,6 @@ x       12345
 </pre>
 
 <hr/>
+
 ## test_mult_escola_enzo.py
 uses unittest to make sure that all mult_escola_enzo's functions are working properly
