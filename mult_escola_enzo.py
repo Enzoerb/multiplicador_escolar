@@ -1,3 +1,6 @@
+from sys import argv
+
+
 class SchoolMult:
 
     def __init__(self, multiplicador: str = '0', multiplicando: str = '0'):
@@ -128,10 +131,11 @@ class SchoolMult:
 
 
 if __name__ == '__main__':
-    Multiplication = SchoolMult('111', '111')
-    Multiplication.signal()
-    Multiplication.ten_potence()
-    Multiplication.mid_operation()
-    Multiplication.final_sum()
-    print(str(Multiplication))
-    print(len(Multiplication))
+
+    if len(argv) == 3:
+        Multiplication = SchoolMult(argv[1], argv[2])
+        Multiplication.signal()
+        Multiplication.ten_potence()
+        Multiplication.mid_operation()
+        Multiplication.final_sum()
+        print(str(Multiplication))
