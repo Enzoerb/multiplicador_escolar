@@ -250,6 +250,7 @@ ex:
 >>> Mult.final_sum()
 >>> print(len(Mult))
 11
+</pre>
 
 ##### str
 returns the visual format of the multiplication
